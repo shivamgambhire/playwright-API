@@ -1,0 +1,26 @@
+{
+  "name": "playwright-api",
+  "version": "1.0.0",
+  "description": "general playwright practice programs with typescript",
+  "main": "index.js",
+  "scripts": {
+
+    "tests:api": "playwright test --config=api.config.ts --project=Chromium",
+    "tests:e2e": "playwright test --config=playwright.config.ts --project=Chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamgambhire/playwright-Mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamgambhire/playwright-Mocha/issues"
+  },
+  "homepage": "https://github.com/shivamgambhire/playwright-Mocha#readme",
+  "dependencies": {
+    "@playwright/test": "^1.54.1",
+    "prettier": "^3.6.2"
+  }
+}
