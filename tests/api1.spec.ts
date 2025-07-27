@@ -28,6 +28,7 @@ test.describe('API Tests', () => {
          }})
 
         await expect(response.status()).toBe(404)
+        console.log(await response.text());
 
     })
 
