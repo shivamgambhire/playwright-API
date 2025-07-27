@@ -1,6 +1,6 @@
 # playwright-practice
 
-<h2>Truey learning repo for Playwright project</h2>
+<h2>Truly learning repo for Playwright project</h2>
 perform the API related stuff in very simple format
 
 general playwright practice programs with typescript
