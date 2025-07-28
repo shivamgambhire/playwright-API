@@ -26,6 +26,10 @@ const config: PlaywrightTestConfig = {
       use: { browserName: 'webkit' },
     },
   ],
+  reporter: [
+  ['list'],
+  ['allure-playwright'],
+]
 }
 
 export default config

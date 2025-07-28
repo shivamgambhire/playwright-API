@@ -4,9 +4,9 @@
   "description": "general playwright practice programs with typescript",
   "main": "index.js",
   "scripts": {
-
     "tests:api": "playwright test --config=api.config.ts --project=Chromium",
-    "tests:e2e": "playwright test --config=playwright.config.ts --project=Chromium"
+    "tests:e2e": "playwright test --config=playwright.config.ts --project=Chromium",
+    "jenkins:server": "java -jar jenkins.war --httpPort=8080 --enable-future-java"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "dependencies": {
     "@playwright/test": "^1.54.1",
     "prettier": "^3.6.2"
+  },
+  "devDependencies": {
+    "allure-playwright": "^3.3.2"
   }
 }
