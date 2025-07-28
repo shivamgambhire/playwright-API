@@ -12,7 +12,8 @@ npx allure generate ./allure-results --clean -o ./allure-report
 REM Step 4: Clone the repo to a temp folder
 cd ..
 rmdir /S /Q output-repo
-git clone https://shivamgambhire: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@github.com/shivamgambhire/playwright-API.git output-repo
+git clone https://%GITHUB_USERNAME%:%GITHUB_TOKEN%@github.com/%GITHUB_USERNAME%/playwright-API.git output-repo
+
 
 REM Step 5: Copy HTML report
 xcopy /E /Y /I Run_Playwright_Tests_Daily\allure-report output-repo\test-report
